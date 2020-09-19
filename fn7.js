@@ -32,3 +32,22 @@ ndetails(student);
 var firstName = 'Kumaran'
 let greeting= `Hi ${firstName}`;
 console.log(greeting)
+
+
+
+
+
+
+
+
+
+function sayHello(){
+    console.log('hi')
+    return 'Have a great day';
+}
+// sayHello()
+var sample =(greet=sayHello)=>{
+    console.log('welcome');
+    console.log(greet())
+}
+sample()
